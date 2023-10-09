@@ -18,7 +18,7 @@ source ~/.bash_profile
 ## 概要
 
 1. **sampling_maps_prepro.sh**: FreeSurferを使用してT1強調像のParcellation及び前処理を行い、Desikan-Killiany Atlasに基づくラベルデータを生成。
-2. **sampling_maps.sh**: 用意した局所領域におけるMRI定量マップの平均値と中央値を計測。
+2. **sampling_maps.sh**: 用意した局所領域におけるMRI定量マップの平均値と中央値を計測。  
 Mac OS Montreyで検証済み  
 
 ## フォルダ構造
