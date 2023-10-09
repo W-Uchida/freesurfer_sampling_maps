@@ -1,7 +1,7 @@
 # freesurfer_sampling_maps
 
 ## Requirement
-FreeSurfer 6.0.0  
+FreeSurfer 7
 FSL  
 MRtrix3
 ## 準備
