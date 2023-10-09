@@ -13,7 +13,6 @@ open ~/.bash_profile
 ```
 export PATH="[your desikan_split path]:$PATH"
 source ~/.bash_profile
-
 ```
 
 ## 概要
