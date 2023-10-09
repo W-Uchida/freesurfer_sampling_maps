@@ -4,6 +4,16 @@
 FreeSurfer 6.0.0  
 FSL  
 MRtrix3
+## 準備
+desikan_splitフォルダにPATHを通してください。  
+```
+open ~/.bash_profile
+```
+開いたファイルに下記を追記して保存。
+```
+export PATH="[your desikan_split path]:$PATH"
+
+```
 
 ## 概要
 
