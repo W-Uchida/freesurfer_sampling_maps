@@ -1,8 +1,5 @@
 # freesurfer_sampling_maps
 
-
-# MRI Processing Repository
-
 ## 概要
 
 このレポジトリには、MRI画像の前処理と領域毎の定量指標の計測を行うための2つの主要なスクリプトが含まれています。
@@ -11,6 +8,7 @@
 2. **sampling_maps.sh**: 指定された領域でMRIマップの平均値と中央値を計測します。
 
 ## フォルダ構造
+```
 workdir
 ├── ID01_Discovery_scan
 │ ├── T1MAP.nii.gz
@@ -20,6 +18,7 @@ workdir
 ├── T1MAP.nii.gz
 ├── T1WI.nii.gz
 └── T2MAP.nii.gz
+```
 
 
 
@@ -27,7 +26,9 @@ workdir
 
 ### 1. sampling_maps_prepro.sh
 
-```bash sampling_maps_prepro.sh -i T1WI.nii.gz -p [プロセス数]
+```
+bash sampling_maps_prepro.sh -i T1WI.nii.gz -p [プロセス数]
+```
 
 オプション:
 
@@ -35,7 +36,9 @@ workdir
 -p: 使用するプロセスの数。
 -h: ヘルプメッセージを表示。
 
+```
 bash sampling_maps.sh -m PDMAP.nii.gz,T1MAP.nii.gz,T2MAP.nii.gz -v Skyra,Prisma -s scan,rescan -a nodes_DK
+```
 
 オプション:
 
