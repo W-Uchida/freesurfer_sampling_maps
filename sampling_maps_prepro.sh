@@ -1,14 +1,14 @@
 #!/bin/bash
 
+lut_path=~/bin/jtd_bin
+export SUBJECTS_DIR=$(pwd)
 # export FREESURFER_HOME=~/bin/freesurfer_6.0.0
 # source "$FREESURFER_HOME/SetUpFreeSurfer.sh"
-lut_path=~/bin/jtd_bin
+
 
 function freesurfer_run () {
     subj=$1
     t1wi=$2
-    
-    # recon-all -i $subj/$t1wi -subjid freesurfer -sd $subj -openmp 1 -all -brainstem-structures
     recon-all -i $subj/$t1wi -subjid freesurfer -sd $subj -openmp 1 -all
     wait
 }
@@ -65,6 +65,8 @@ fi
 trap 'echo "全ての処理を中断します..."; exit 1' INT
 export -f freesurfer_run freesurfer_postproc
 
-# \ls -1 | xargs -I{} -P$proc bash -c "freesurfer_run '{}' '$t1wi'"
-# wait
+\ls -1 | xargs -I{} -P$proc bash -c "freesurfer_run '{}' '$t1wi'"
+wait
+\ls -1 | xargs -I{} -P$proc segmentBS.sh {}/freesurfer
+wait
 \ls -1 | xargs -I{} -P$proc bash -c "freesurfer_postproc '{}' '$t1wi' '$lut_path'"
