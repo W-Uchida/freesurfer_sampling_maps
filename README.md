@@ -13,9 +13,9 @@ MRtrix3
 2. **sampling_maps.sh**: 指定された領域でMRIマップの平均値と中央値を計測します。
 
 ## フォルダ構造
-以下のフォルダ構造を想定しています。　　
+以下のフォルダ構造を想定しています。  
 各コードをworkdirで実行します。  
-各被験者に対応するフォルダ名は"{ID}\_{vendor}\_{scan}"としてください。
+各被験者に対応するフォルダ名は"{ID}\_{vendor}\_{scan}"としてください。  
 
 ```
 workdir
@@ -31,10 +31,7 @@ workdir
 ...
 ```
 
-
-
 ## 使用方法
-
 ### 1. sampling_maps_prepro.sh
 
 ```
@@ -46,6 +43,9 @@ bash sampling_maps_prepro.sh -i T1WI.nii.gz -p [プロセス数]
 -i: 入力として使用するT1WIファイル名。  
 -p: 使用するプロセスの数。  
 -h: ヘルプメッセージを表示。  
+
+
+### 2. sampling_maps.sh
 
 ```
 bash sampling_maps.sh -m PDMAP.nii.gz,T1MAP.nii.gz,T2MAP.nii.gz -v Skyra,Prisma -s scan,rescan -a nodes_DK
