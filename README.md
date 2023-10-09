@@ -17,10 +17,8 @@ source ~/.bash_profile
 
 ## 概要
 
-このレポジトリには、MRI画像の前処理と領域毎の定量指標の計測を行うための2つの主要なスクリプトが含まれています。
-
-1. **sampling_maps_prepro.sh**: FreeSurferを使用してMRI画像の前処理を行い、さまざまな領域のラベルマップを生成します。
-2. **sampling_maps.sh**: 指定された領域でMRIマップの平均値と中央値を計測します。
+1. **sampling_maps_prepro.sh**: FreeSurferを使用してT1強調像のParcellation及び前処理を行い、Desikan-Killiany Atlasに基づくラベルデータを生成。
+2. **sampling_maps.sh**: 用意した局所領域におけるMRI定量マップの平均値と中央値を計測。
 
 ## フォルダ構造
 以下のフォルダ構造を想定しています。  
