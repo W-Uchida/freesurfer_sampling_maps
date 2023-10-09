@@ -32,20 +32,20 @@ bash sampling_maps_prepro.sh -i T1WI.nii.gz -p [プロセス数]
 
 オプション:
 
--i: 入力として使用するT1WIファイル名。
--p: 使用するプロセスの数。
--h: ヘルプメッセージを表示。
+-i: 入力として使用するT1WIファイル名。  
+-p: 使用するプロセスの数。  
+-h: ヘルプメッセージを表示。  
 
 ```
 bash sampling_maps.sh -m PDMAP.nii.gz,T1MAP.nii.gz,T2MAP.nii.gz -v Skyra,Prisma -s scan,rescan -a nodes_DK
 ```
 
-オプション:
-
--m: 分析するマップを指定 (例: PDMAP.nii.gz,T1MAP.nii.gz,T2MAP.nii.gz)。
--v: ベンダーを指定 (例: Skyra,Prisma)。
--s: スキャンタイプを指定 (例: scan,rescan)。
--a: 使用するアトラスを指定 (例: nodes_DK, nodes_aseg, nodes_wmparc)。
--h: ヘルプメッセージを表示。
-注意: 必要に応じて、各スクリプトの中で定義されているパスや変数を適切に設定してください。
+オプション:  
+  
+-m: 分析するマップを指定 (例: PDMAP.nii.gz,T1MAP.nii.gz,T2MAP.nii.gz)。  
+-v: ベンダーを指定 (例: Skyra,Prisma)。  
+-s: スキャンタイプを指定 (例: scan,rescan)。  
+-a: 使用するアトラスを指定 (例: nodes_DK, nodes_aseg, nodes_wmparc)。  
+-h: ヘルプメッセージを表示。  
+注意: 必要に応じて、各スクリプトの中で定義されているパスや変数を適切に設定してください。  
 
