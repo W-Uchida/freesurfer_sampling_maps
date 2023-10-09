@@ -1,5 +1,10 @@
 # freesurfer_sampling_maps
 
+## Requirement
+FreeSurfer 6.0.0  
+FSL  
+MRtrix3
+
 ## 概要
 
 このレポジトリには、MRI画像の前処理と領域毎の定量指標の計測を行うための2つの主要なスクリプトが含まれています。
@@ -8,16 +13,22 @@
 2. **sampling_maps.sh**: 指定された領域でMRIマップの平均値と中央値を計測します。
 
 ## フォルダ構造
+以下のフォルダ構造を想定しています。　　
+各コードをworkdirで実行します。  
+各被験者に対応するフォルダ名は{ID}_{vendor}_{scan}としてください。
+
 ```
 workdir
 ├── ID01_Discovery_scan
 │ ├── T1MAP.nii.gz
 │ ├── T1WI.nii.gz
 │ └── T2MAP.nii.gz
-└── ID02_Discovery_rescan
-├── T1MAP.nii.gz
-├── T1WI.nii.gz
-└── T2MAP.nii.gz
+└── ID01_Discovery_rescan
+│ ├── T1MAP.nii.gz
+│ ├── T1WI.nii.gz
+│ └── T2MAP.nii.gz
+├── ID02_Discovery_scan
+...
 ```
 
 
