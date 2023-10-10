@@ -1,0 +1,1 @@
+mri_convert /Users/uchidawataru/Juntendo/DrFujita/test/test/ID02_Discovery_scan/freesurfer/mri/rawavg.mgz /Users/uchidawataru/Juntendo/DrFujita/test/test/ID02_Discovery_scan/freesurfer/mri/orig.mgz --conform

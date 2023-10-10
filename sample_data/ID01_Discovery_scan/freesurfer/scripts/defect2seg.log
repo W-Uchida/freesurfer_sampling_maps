@@ -1,0 +1,38 @@
+Log file for defect2seg
+Mon Oct  9 19:10:33 JST 2023
+
+setenv SUBJECTS_DIR /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan
+cd /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/scripts
+/Users/uchidawataru/bin/freesurfer/bin/defect2seg --s freesurfer
+
+freesurfer-darwin-macOS-7.1.1-20200811-8b40551
+defect2seg 7.1.1
+Darwin MacBook-Pro-10.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:17:10 PDT 2022; root:xnu-8020.140.49~2/RELEASE_X86_64 x86_64 i386 Darwin
+pid 51574
+mri_label2vol --defects /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/lh.orig.nofix /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/lh.defect_labels /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/mri/orig.mgz 1000 0 /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/mri/surface.defects.mgz
+ supposed to be reproducible but seed not set
+Changing input type 0 to MRI_INT
+Converting defects to volume: offset=1000, merge=0
+Writing to /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/mri/surface.defects.mgz
+mris_defects_pointset -s /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/lh.orig.nofix -d /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/lh.defect_labels -o /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/lh.defects.pointset
+Reading in surface /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/lh.orig.nofix
+Reading in defect segmentation /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/lh.defect_labels
+#VMPC# mris_defects_pointset 0
+mris_defects_pointset done
+mri_label2vol --defects /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/rh.orig.nofix /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/rh.defect_labels /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/mri/surface.defects.mgz 2000 1 /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/mri/surface.defects.mgz
+ supposed to be reproducible but seed not set
+Converting defects to volume: offset=2000, merge=1
+Writing to /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/mri/surface.defects.mgz
+mris_defects_pointset -s /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/rh.orig.nofix -d /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/rh.defect_labels -o /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/rh.defects.pointset
+Reading in surface /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/rh.orig.nofix
+Reading in defect segmentation /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/surf/rh.defect_labels
+#VMPC# mris_defects_pointset 0
+mris_defects_pointset done
+ 
+Started at Mon Oct 9 19:10:33 JST 2023 
+Ended   at Mon Oct  9 19:10:38 JST 2023
+Defect2seg-Run-Time-Sec 5
+Defect2seg-Run-Time-Min 0.10
+Defect2seg-Run-Time-Hours 0.00
+ 
+defect2seg Done

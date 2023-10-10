@@ -1,0 +1,81 @@
+status file for recon-all
+Mon Oct  9 15:38:08 JST 2023
+#@# MotionCor Mon Oct  9 15:38:10 JST 2023
+#@# Talairach Mon Oct  9 15:38:17 JST 2023
+#@# Talairach Failure Detection Mon Oct  9 15:40:34 JST 2023
+#@# Nu Intensity Correction Mon Oct  9 15:40:34 JST 2023
+#@# Intensity Normalization Mon Oct  9 15:42:41 JST 2023
+#@# Skull Stripping Mon Oct  9 15:44:03 JST 2023
+#@# EM Registration Mon Oct  9 15:58:57 JST 2023
+#@# CA Normalize Mon Oct  9 16:09:17 JST 2023
+#@# CA Reg Mon Oct  9 16:10:03 JST 2023
+#@# SubCort Seg Mon Oct  9 18:24:37 JST 2023
+#@# CC Seg Mon Oct  9 18:56:19 JST 2023
+#@# Merge ASeg Mon Oct  9 18:56:45 JST 2023
+#@# Intensity Normalization2 Mon Oct  9 18:56:45 JST 2023
+#@# Mask BFS Mon Oct  9 18:58:48 JST 2023
+#@# WM Segmentation Mon Oct  9 18:58:50 JST 2023
+#@# Fill Mon Oct  9 19:00:46 JST 2023
+#@# Tessellate lh Mon Oct  9 19:01:53 JST 2023
+#@# Tessellate rh Mon Oct  9 19:01:56 JST 2023
+#@# Smooth1 lh Mon Oct  9 19:02:00 JST 2023
+#@# Smooth1 rh Mon Oct  9 19:02:03 JST 2023
+#@# Inflation1 lh Mon Oct  9 19:02:06 JST 2023
+#@# Inflation1 rh Mon Oct  9 19:02:20 JST 2023
+#@# QSphere lh Mon Oct  9 19:02:35 JST 2023
+#@# QSphere rh Mon Oct  9 19:04:19 JST 2023
+#@# Fix Topology lh Mon Oct  9 19:05:51 JST 2023
+#@# Fix Topology rh Mon Oct  9 19:07:55 JST 2023
+#@# Smooth2 lh Mon Oct  9 19:21:22 JST 2023
+#@# Smooth2 rh Mon Oct  9 19:21:25 JST 2023
+#@# Inflation2 lh Mon Oct  9 19:21:29 JST 2023
+#@# Inflation2 rh Mon Oct  9 19:21:47 JST 2023
+#@# Curv .H and .K lh Mon Oct  9 19:22:07 JST 2023
+#@# Curv .H and .K rh Mon Oct  9 19:22:54 JST 2023
+#@# Sphere lh Mon Oct  9 19:23:42 JST 2023
+#@# Sphere rh Mon Oct  9 19:33:51 JST 2023
+#@# Surf Reg lh Mon Oct  9 19:44:14 JST 2023
+#@# Surf Reg rh Mon Oct  9 19:50:59 JST 2023
+#@# Jacobian white lh Mon Oct  9 19:57:14 JST 2023
+#@# Jacobian white rh Mon Oct  9 19:57:15 JST 2023
+#@# AvgCurv lh Mon Oct  9 19:57:16 JST 2023
+#@# AvgCurv rh Mon Oct  9 19:57:17 JST 2023
+#@# Cortical Parc lh Mon Oct  9 19:57:18 JST 2023
+#@# Cortical Parc rh Mon Oct  9 19:57:31 JST 2023
+#@# white curv lh Mon Oct  9 20:16:11 JST 2023
+#@# white area lh Mon Oct  9 20:16:13 JST 2023
+#@# pial curv lh Mon Oct  9 20:16:14 JST 2023
+#@# pial area lh Mon Oct  9 20:16:17 JST 2023
+#@# thickness lh Mon Oct  9 20:16:18 JST 2023
+#@# area and vertex vol lh Mon Oct  9 20:16:57 JST 2023
+#@# white curv rh Mon Oct  9 20:16:59 JST 2023
+#@# white area rh Mon Oct  9 20:17:02 JST 2023
+#@# pial curv rh Mon Oct  9 20:17:03 JST 2023
+#@# pial area rh Mon Oct  9 20:17:06 JST 2023
+#@# thickness rh Mon Oct  9 20:17:07 JST 2023
+#@# area and vertex vol rh Mon Oct  9 20:17:50 JST 2023
+#@# Curvature Stats lh Mon Oct  9 20:17:52 JST 2023
+#@# Curvature Stats rh Mon Oct  9 20:17:56 JST 2023
+#@# Cortical ribbon mask Mon Oct  9 20:18:00 JST 2023
+#@# Cortical Parc 2 lh Mon Oct  9 20:32:30 JST 2023
+#@# Cortical Parc 2 rh Mon Oct  9 20:32:48 JST 2023
+#@# Cortical Parc 3 lh Mon Oct  9 20:33:06 JST 2023
+#@# Cortical Parc 3 rh Mon Oct  9 20:33:19 JST 2023
+#@# WM/GM Contrast lh Mon Oct  9 20:33:32 JST 2023
+#@# WM/GM Contrast rh Mon Oct  9 20:33:36 JST 2023
+#@# Relabel Hypointensities Mon Oct  9 20:33:40 JST 2023
+#@# APas-to-ASeg Mon Oct  9 20:33:59 JST 2023
+#@# AParc-to-ASeg aparc Mon Oct  9 20:34:20 JST 2023
+#@# AParc-to-ASeg aparc.a2009s Mon Oct  9 20:37:45 JST 2023
+#@# AParc-to-ASeg aparc.DKTatlas Mon Oct  9 20:41:17 JST 2023
+#@# WMParc Mon Oct  9 20:44:18 JST 2023
+#@# Parcellation Stats lh Mon Oct  9 20:49:46 JST 2023
+#@# Parcellation Stats rh Mon Oct  9 20:50:06 JST 2023
+#@# Parcellation Stats 2 lh Mon Oct  9 20:50:27 JST 2023
+#@# Parcellation Stats 2 rh Mon Oct  9 20:50:38 JST 2023
+#@# Parcellation Stats 3 lh Mon Oct  9 20:50:51 JST 2023
+#@# Parcellation Stats 3 rh Mon Oct  9 20:51:03 JST 2023
+#@# ASeg Stats Mon Oct  9 20:51:15 JST 2023
+#@# BA_exvivo Labels lh Mon Oct  9 20:53:42 JST 2023
+#@# BA_exvivo Labels rh Mon Oct  9 20:56:57 JST 2023
+recon-all -s freesurfer finished without error at Mon Oct  9 21:00:16 JST 2023

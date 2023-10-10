@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT freesurfer
+START_TIME Mon Oct 9 15:37:50 JST 2023
+END_TIME Mon Oct 9 21:00:47 JST 2023
+RUNTIME_HOURS 5.383
+USER uchidawataru
+HOST MacBook-Pro-10.local
+PROCESSOR x86_64
+OS Darwin
+UNAME Darwin MacBook-Pro-10.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:17:10 PDT 2022; root:xnu-8020.140.49~2/RELEASE_X86_64 x86_64 i386 Darwin
+VERSION 7.1.1 (freesurfer-darwin-macOS-7.1.1-20200811-8b40551)
+CMDPATH /Users/uchidawataru/bin/freesurfer/bin/recon-all
+CMDARGS -i ID01_Discovery_scan/T1WI.nii.gz -subjid freesurfer -sd ID01_Discovery_scan -openmp 1 -all

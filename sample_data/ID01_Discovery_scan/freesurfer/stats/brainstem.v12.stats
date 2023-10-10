@@ -1,0 +1,6 @@
+# Brainstem structure volumes as created by segmentBS.sh
+1 1  0 4428.535817 Medulla
+2 2  0 12991.042775 Pons
+3 3  0 272.135023 SCP
+4 4  0 6349.437196 Midbrain
+5 5  0 24041.150811 Whole_brainstem

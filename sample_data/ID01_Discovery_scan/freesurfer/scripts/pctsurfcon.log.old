@@ -1,0 +1,9 @@
+Logfile for pctsurfcon
+Mon Oct  9 20:34:06 JST 2023
+setenv SUBJECTS_DIR /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan
+cd /Users/uchidawataru/Juntendo/DrFujita/test/test/ID01_Discovery_scan/freesurfer/scripts
+/Users/uchidawataru/bin/freesurfer/bin/pctsurfcon
+FreeSurferEnv.csh 7.1.1
+Darwin MacBook-Pro-10.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:17:10 PDT 2022; root:xnu-8020.140.49~2/RELEASE_X86_64 x86_64 i386 Darwin
+FREESURFER_HOME /Users/uchidawataru/bin/freesurfer
+Cleaning up

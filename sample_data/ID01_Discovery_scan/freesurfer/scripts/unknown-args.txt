@@ -1,0 +1,9 @@
+-i
+ID01_Discovery_scan/T1WI.nii.gz
+-subjid
+freesurfer
+-sd
+ID01_Discovery_scan
+-openmp
+1
+-all

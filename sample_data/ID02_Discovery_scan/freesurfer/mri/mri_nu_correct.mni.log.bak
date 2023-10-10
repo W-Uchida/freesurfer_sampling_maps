@@ -1,0 +1,24 @@
+/Users/uchidawataru/Juntendo/DrFujita/test/test/ID02_Discovery_scan/freesurfer/mri
+/Users/uchidawataru/bin/freesurfer/bin/mri_nu_correct.mni
+--no-rescale --i orig.mgz --o orig_nu.mgz --ants-n4 --n 1 --proto-iters 1000 --distance 50
+nIters 1
+FreeSurferEnv.csh 7.1.1
+Darwin MacBook-Pro-10.local 21.6.0 Darwin Kernel Version 21.6.0: Mon Aug 22 20:17:10 PDT 2022; root:xnu-8020.140.49~2/RELEASE_X86_64 x86_64 i386 Darwin
+Mon Oct  9 15:38:17 JST 2023
+tmpdir is ./tmp.mri_nu_correct.mni.62062
+cd /Users/uchidawataru/Juntendo/DrFujita/test/test/ID02_Discovery_scan/freesurfer/mri
+AntsN4BiasFieldCorrectionFs -i orig.mgz -o ./tmp.mri_nu_correct.mni.62062/nu0.mgz
+Using shrink factor: 4
+mri_convert ./tmp.mri_nu_correct.mni.62062/nu0.mgz orig_nu.mgz --like orig.mgz --conform
+mri_convert ./tmp.mri_nu_correct.mni.62062/nu0.mgz orig_nu.mgz --like orig.mgz --conform 
+reading from ./tmp.mri_nu_correct.mni.62062/nu0.mgz...
+TR=100.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 4.45652e-10, 0)
+j_ras = (3.72529e-09, -5.82077e-11, -1)
+k_ras = (-1.37516e-09, 1, -5.82077e-11)
+INFO: transform src into the like-volume: orig.mgz
+writing to orig_nu.mgz...
+ 
+ 
+Mon Oct  9 15:40:09 JST 2023
+mri_nu_correct.mni done
