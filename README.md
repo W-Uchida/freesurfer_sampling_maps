@@ -70,3 +70,9 @@ bash sampling_maps.sh -m T1MAP.nii.gz,T2MAP.nii.gz -v Discovery,Prisma -s scan,r
 -h: ヘルプメッセージを表示。  
 注意: 必要に応じて、各スクリプトの中で定義されているパスや変数を適切に設定してください。  
 
+
+### 3. Merged ROIの作成　　
+splitされたアトラスデータ（nodes_DK, nodes_aseg, nodes_wmparc）から任意のマスク群で新たな合成マスクを作成したい場合  
+```
+fsladd new_ROI.nii.gz [ List consisting of masks to be merged ]
+```
